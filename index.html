@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>InfoTunes</title>
+      <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+		<header>
+		  <div id="topNav">
+			 <img src = "infotunes.png" width="300" height="120" alt="InfoTunes">
+			 <h4 id="nav1"><img src="searchicon.png" height=15 width=15 alt="Magnifying Glass"> Search Options</h4>
+			 <br>
+			 <div id = "nav2">
+				Song title:  <input id="song" type="text" size="20" maxlength="30" value="Title" onblur="if (this.value == '') {this.value = 'Title';}"
+				   onfocus="if (this.value == 'Title') {this.value = '';}" />
+				Show lyrics: <input type="checkbox" id="lyricsData" checked>
+				Display music video: <input type="checkbox" id="videoData" checked >
+			 </div>
+			 <div id = "nav3">
+				Artist name:  <input id="artist" type="text" size="20" maxlength="30" value="Artist" onblur="if (this.value == '') {this.value = 'Artist';}"
+				   onfocus="if (this.value == 'Artist') {this.value = '';}" /> 
+				<label>
+				   Artist data source: 
+				   <select id="sourceSelect" >
+					  <option value="wikipedia">Wikipedia</option>
+					  <option value="last.fm">Last.fm</option>
+					  <option value="none">None</option>
+				   </select>
+				</label>
+				<span id="artistCheckBox">Full artist data: <input type="checkbox" id="artistData"></span>
+			 </div>
+			 <div id ="nav4">
+				<button type="button" id="search">Search</button>
+			 </div>
+		  </div>
+		</header>
+      <div id="content">
+         <div class="OpeningText">
+            <p style = "font-size: 18px"><i>Search for a song and artist to get information and links to prominent information!</i></p>
+            <h2>Search Results</h2>
+         </div>
+         <div id="DynamicContent">
+            <p class="OpeningText">No data yet!</p>
+         </div>
+      </div>
+      <div id="footer">
+         <p>&copy; Brendan Kenny & Eric Fonseca - IGME 330</p>
+      </div>
+   </body>
+   <script src="infotunes.js"></script>
+</html>

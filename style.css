@@ -1,0 +1,130 @@
+*{
+	font-family: 'myriad pro', sans-serif;		
+}
+body{
+	background: #5173B0;
+}
+h1{
+	color:#e4685d;
+	-webkit-text-stroke:3px #000099;
+	text-shadow: 0 0 30px #0FF;
+	font-size: 50px;
+	padding: 30px 0 0 10px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: 0 -430px;
+	height: 100px;
+	width: 100%;
+}
+h2,h3,h4, summary{
+	font-family: 'Montserrat', sans-serif;
+}
+#footer{
+	text-align: center;
+	color: #FFF;
+	font-size:12px;
+}
+.eventDiv{
+	max-height: 200px;
+	overflow: auto;   
+	border-bottom:1px solid gray;
+	margin-bottom:1em;
+}
+#content{
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color:#EEfffE;
+	margin-top: 150px;
+	padding:0px 10px 10px 10px;
+	border: 4px solid #2a2c2b;
+	min-height:500px;
+}
+#search{
+	background:linear-gradient(to bottom, #838dfc 5%, #5d68e4 100%);
+	background-color:#838dfc;
+	border:1px solid #838dfc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #838dfF;
+	margin-right:2em;
+}
+#search:hover {
+	background:linear-gradient(to bottom, #5d68e4 5%, #838dfc 100%);
+	background-color:#e5d68e4;
+}
+#search:active {
+	position:relative;
+	top:1px;
+}
+.OpeningText{
+	text-align:center;
+}
+#play{
+	background:linear-gradient(to bottom, #838dfc 5%, #5d68e4 100%);
+	background-color:#838dfc;
+	border:1px solid #838dfc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:30px;
+	font-weight:bold;
+	padding:16px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #838dfF;
+	margin-top: 145px;
+}
+#play:hover {
+	background:linear-gradient(to bottom, #5d68e4 5%, #838dfc 100%);
+	background-color:#e5d68e4;
+}
+#play:active {
+	position:relative;
+	top:1px;
+}
+summary{
+	display: block;
+	font-size: 1.17em;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#topNav{
+	top: 0;
+	position:fixed;
+	width: 100%;
+	margin-left: -8px;
+	background-color: #2a2c2b;
+	color:#EDFDFF;
+}
+#nav1{
+	position: absolute;
+	top: -13px;
+	text-align: center;
+	width: 100%;
+}
+#nav2{
+	position: absolute;
+	top: 33px;
+	text-align: center;
+	width: 100%;
+}
+#nav3{
+	position: absolute;
+	top: 61px;
+	text-align: center;
+	width: 100%;
+}
+#nav4{
+	position: absolute;
+	top: 86px;
+	text-align: center;
+	width: 100%;
+}
